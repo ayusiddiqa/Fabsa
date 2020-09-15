@@ -3,7 +3,9 @@
     <h2 class="product__title">{{ product.name }}</h2>
     <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
     <p class="product__description">{{ product.content | remove: '<p>' | remove: '</p>' }}</p>
-    {% include product-definition.html %}
+	<p class ="Product_Price">Price : 500 Rs</p>
+	For orderinging reach out to us via phone or email
+  {% include product-definition.html %}
   </div>
   <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
 </div>
