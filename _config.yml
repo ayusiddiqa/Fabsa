@@ -28,6 +28,7 @@ twitter_username: snipcart
 github_username:  snipcart
 
 # Build settings
+theme: minima
 plugins:
   - jekyll-feed
 
